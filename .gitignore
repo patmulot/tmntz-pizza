@@ -1,0 +1,17 @@
+integration
+
+public/vendor
+public/wp
+public/wp-content
+public/composer.lock
+public/wp-config.phhp
+
+public/content/*
+!/public/content
+public/content/themes/*
+!/public/content/themes
+!/public/content/themes/tmntzpizza
+
+public/content/plugins/*
+!/public/content/plugins
+!/public/content/plugins/tmntzpizza

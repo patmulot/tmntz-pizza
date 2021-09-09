@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4" : {
+            "tmntzpizza\\" : "./class"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor-tmntzpizza"
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
