@@ -1,9 +1,9 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /neo/my-projects/TMNTzpizza/public/
+RewriteBase /neo/mes-travaux-2/TMNTzpizza/public/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /neo/my-projects/TMNTzpizza/public/index.php [L]
+RewriteRule . /neo/mes-travaux-2/TMNTzpizza/public/index.php [L]
 </IfModule>

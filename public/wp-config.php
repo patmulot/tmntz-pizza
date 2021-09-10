@@ -85,7 +85,7 @@ define( 'WP_DEBUG', false );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
-define('WP_HOME', rtrim ( 'http://localhost/neo/mes-travaux-2/TMNTzpizza/public', '/' )); //!
+define('WP_HOME', rtrim ( 'http://localhost/neo/my-projects/tmntz-pizza/public/', '/' )); //!
 
 define('WP_SITEURL', WP_HOME . '/wp');
 define('WP_CONTENT_URL', WP_HOME . '/content');

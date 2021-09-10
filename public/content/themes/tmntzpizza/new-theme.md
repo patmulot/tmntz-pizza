@@ -43,7 +43,7 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 installer wordpress : 
 ( remplir les informations concernant le site )
 ```sh
-wp core install --url="http://localhost/neo/my-projects/wp_projet_theme/public/" --title="projet theme" --admin_user="projet_theme" --admin_password="projet_theme" --admin_email="projet_theme@devwp.com" --skip-email;
+wp core install --url="http://localhost/neo/mes-travaux-2/wp_projet_theme/public/" --title="projet theme" --admin_user="projet_theme" --admin_password="projet_theme" --admin_email="projet_theme@devwp.com" --skip-email;
 ```
 # 10
 **Ne pas oublie de se placer dans le dossier racine du site wordpress**
